@@ -4,7 +4,7 @@ one pseudomonas array platform by Affymetirx "A-AFFY-30". It will print the url 
 file of raw data for all experiments measured on this platform. 
 '''
 
-import urllib2
+from urllib.request import urlopen #have to do this with python version 3
 import json
 
 json_uh = urllib2.urlopen("http://www.ebi.ac.uk/arrayexpress/json/v2/files?array=A-AFFY-30")
