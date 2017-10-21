@@ -1,4 +1,6 @@
-   ############
+#!/bin/bash
+
+############
     ##Path Two##
     ############
     #If you want to reproduce our analysis, we only included datasets that are available before 02/22/2014 in the compendium. You can start from here using the already processed expression compendium provided as Data_collection_processing/Pa_compendium_02.22.2014.pcl and the processed test sets Data_collection_processing/Genome-hybs-gene.pcl and Data_collection_processing/Anr-gene.pcl.
